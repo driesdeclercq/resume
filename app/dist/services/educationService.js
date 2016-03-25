@@ -6,7 +6,6 @@ var MyResumeApp;
             this.$q = $q;
             this.education = [
                 {
-                    icon: '',
                     category: 'Opleiding',
                     column: 'left',
                     entries: [
@@ -33,7 +32,6 @@ var MyResumeApp;
                     ]
                 },
                 {
-                    icon: '',
                     category: 'Interesses',
                     column: 'left',
                     entries: [
@@ -56,7 +54,6 @@ var MyResumeApp;
                     ]
                 },
                 {
-                    icon: '',
                     category: 'Andere ervaring',
                     column: 'left',
                     entries: [

@@ -18,7 +18,6 @@ module MyResumeApp {
 
     private education: Skill[] = [
     {
-      icon: '',
       category: 'Opleiding',
       column: 'left',
       entries: [
@@ -45,7 +44,6 @@ module MyResumeApp {
       ]
     },
     {
-      icon: '',
       category: 'Interesses',
       column: 'left',
       entries: [
@@ -68,7 +66,6 @@ module MyResumeApp {
       ]
     },
     {
-      icon: '',
       category: 'Andere ervaring',
       column: 'left',
       entries: [
