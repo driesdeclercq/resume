@@ -9,7 +9,7 @@
     <md-list>    
       <md-list-item ng-repeat="menuItem in vm.menuItems">
         <md-button ng-click="vm.selectMenuItem(menuItem)" class="md-primary {{menuItem.hue}}"
-                   ng-class="{'selected': menuItem === vm.selected} md-icon-button">
+                   ng-class="md-icon-button">
           <ng-md-icon icon="{{menuItem.icon}}"></ng-md-icon>
           <span class="md-inline-list-icon-label">{{menuItem.name}}</span>
         </md-button>
