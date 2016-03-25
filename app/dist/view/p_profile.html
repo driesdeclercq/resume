@@ -1,0 +1,25 @@
+<md-content layout="column" class="md-padding layout-column flex-xs">
+	<md-card class="profile-card">
+		<md-card-content>
+			<div class="profile-img-wrapper">
+				<img src="./assets/img/dries.png" class="profile-img" alt="Dries Declercq" />
+			</div>
+			<h1>Dries Declercq</h1>
+			<h3>Web enthusiast</h3>
+			<div layout-sm="column" layout-gt-sm="row">
+				<div flex flex-gt-sm="60">
+					<p>Ik ben een enthousiaste, vindingrijke ingenieur, met veel ervaring in web development, een oog voor detail en steeds geïnteresseerd om mezelf verder te ontwikkelen.
+					Ik ben geboeid door nieuwe (mobiele) technologie, user experience en geïnteresseerd in hoe dingen werken en hoe ze verbeterd kunnen worden.</p>
+				</div>
+				<md-list flex>
+					<md-list-item ng-repeat="contact in vm.contacts">
+						<md-button ng-href="{{contact.href}}" target="_blank" aria-label="{{contact.text}}" class="md-list-item-content md-warn">
+							<ng-md-icon icon="{{contact.icon}}"></ng-md-icon>
+							<span class="md-inline-list-icon-label" ng-bind-html="contact.text"></span>
+						</md-button>
+					</md-list-item>
+				</md-list>		
+			</div>
+		</md-card-content>	
+	</md-card>
+</md-content>

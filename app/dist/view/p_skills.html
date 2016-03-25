@@ -1,0 +1,14 @@
+<md-content class="md-padding skills" layout-xs="column" layout="row">
+  <div flex-xs flex-gt-xs="70" layout="column">
+    <md-card ng-repeat="skill in vm.skills | filter: { column: 'left' }">
+        <!--class="{{vm.getRandomClass()}}">-->
+      <ng-include src="'dist/view/skill_card.html'"></ng-include>
+    </md-card> 
+  </div>
+  <div flex-xs flex-gt-xs="30" layout="column">
+    <md-card ng-repeat="skill in vm.skills | filter: { column: 'right' }">
+        <!--class="{{vm.getRandomClass()}}">-->
+      <ng-include src="'dist/view/skill_card.html'"></ng-include>
+    </md-card>
+    </div>
+</div>

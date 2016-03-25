@@ -1,0 +1,5 @@
+<md-content layout="column" class="md-padding layout-column flex-xs education">
+  <md-card ng-repeat="skill in vm.education | filter: { column: 'left' }">
+    <ng-include src="'dist/view/skill_card.html'"></ng-include>
+  </md-card> 
+</div>

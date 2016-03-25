@@ -1,0 +1,19 @@
+ <md-sidenav class="md-sidenav-left md-whiteframe-z2 site-sidenav" 
+                md-component-id="left"
+                md-is-locked-open="$mdMedia('gt-sm')">
+  <header class="nav-header">
+    <div class="small-name" ng-include="'dist/view/name.html'"></div>
+  </header>
+
+  <md-content class="nav-content">
+    <md-list>    
+      <md-list-item ng-repeat="menuItem in vm.menuItems">
+        <md-button ng-click="vm.selectMenuItem(menuItem)" class="md-primary {{menuItem.hue}}"
+                   ng-class="{'selected': menuItem === vm.selected} md-icon-button">
+          <ng-md-icon icon="{{menuItem.icon}}"></ng-md-icon>
+          <span class="md-inline-list-icon-label">{{menuItem.name}}</span>
+        </md-button>
+      </md-list-item>
+    </md-list>
+  </md-content>
+</md-sidenav>

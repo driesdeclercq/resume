@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myResumeApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link rel="stylesheet" href="./bower_components/angular-material/angular-material.min.css"/>    
+    <link rel="stylesheet" href="./bower_components/angular-material-icons/angular-material-icons.css"/>
+    <link rel="stylesheet" href="./assets/name.css"/>
+    <link rel="stylesheet" href="./assets/app.css"/>
+    
+    <style type="text/css">
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+          display: none !important;
+        }
+    </style>
+  </head>  
+  <body layout="flex" ng-cloak ng-controller="mainController as vm">
+
+    <ng-include src="'dist/view/sidenav.html'" layout="vertical"></ng-include>
+
+    <div layout="column" flex>
+      <ng-include src="'dist/view/toolbar_header.html'"></ng-include>
+      <md-content flex class="md-padding">
+        <div ng-view="" layout-padding="" flex="noshrink" class="layout-padding set-width ng-scope flex-noshrink">
+          <ng-include src="vm.selected.template"></ng-include>
+        </div>  
+      </md-content>
+  	</div>
+
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="./bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="./bower_components/angular-material/angular-material.min.js"></script>
+    <script src="./bower_components/angular-material-icons/angular-material-icons.min.js"></script>
+    <script src="./bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    
+    <script src="./dist/models.js"></script>
+    <script src="./dist/services/jobService.js"></script>
+    <script src="./dist/services/skillService.js"></script>
+    <script src="./dist/services/educationService.js"></script>
+    <script src="./dist/services/menuItemService.js"></script>
+    <script src="./dist/services/contactService.js"></script>
+    <script src="./dist/controllers/mainController.js"></script>
+    <script src="./dist/boot.js"></script>
+  </body>
+  
+</html>

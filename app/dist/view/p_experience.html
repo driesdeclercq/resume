@@ -1,0 +1,25 @@
+<md-content layout="column" class="md-padding layout-column flex-xs jobs">
+	<md-card ng-repeat="job in vm.jobs">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">{{job.start}} - {{job.end}} {{job.title}}</span>
+            <span class="md-subhead">{{job.company}}, {{job.location}}</span>
+          </md-card-title-text>
+          <md-card-title-media>
+            <div class="md-media-sm card-media" ng-hide="job.logo == ''">
+            	<img src="{{job.logo}}" alt="{{job.company}} logo"/>
+            </div>
+          </md-card-title-media>
+        </md-card-title>
+        <md-card-content>
+      		<md-list flex>
+      			<md-list-item ng-repeat="line in job.description">
+              <div class="md-list-item-content">
+                <ng-md-icon icon="arrow_forward" size="16"></ng-md-icon>
+                <span ng-bind-html="line" class="text-list-item-label"></span>
+              </div>
+            </md-list-item>
+      		</md-list>
+        </md-card-content>
+    </md-card>
+</md-content>

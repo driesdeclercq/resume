@@ -1,0 +1,20 @@
+
+<md-card-title>
+  <md-card-title-text>
+    <span class="md-headline">{{skill.category}}</span>
+  </md-card-title-text>
+</md-card-title>
+<md-card-content>
+  <md-list flex>
+    <md-list-item ng-repeat="entry in skill.entries">
+      <div class="md-list-item-content">
+        <ng-md-icon icon="arrow_forward" size="16"></ng-md-icon>
+        <span flex class="text-list-item-label">
+          <span class="skill-name">{{entry.name}}</span>
+          <span ng-show='entry.name.length > 0'>: </span>
+          <span ng-bind-html="entry.level"></span>
+        </span>
+      </div>
+    </md-list-item>
+  </md-list>
+</md-card-content>
