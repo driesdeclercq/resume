@@ -15,7 +15,7 @@
 					<md-list-item ng-repeat="contact in vm.contacts">
 						<md-button ng-href="{{contact.href}}" target="_blank" aria-label="{{contact.text}}" class="md-list-item-content md-warn">
 							<ng-md-icon icon="{{contact.icon}}"></ng-md-icon>
-							<span class="md-inline-list-icon-label" ng-bind-html="contact.text"></span>
+							<div class="md-inline-list-icon-label" ng-bind-html="contact.text"></div>
 						</md-button>
 					</md-list-item>
 				</md-list>		

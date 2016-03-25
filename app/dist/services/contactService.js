@@ -21,7 +21,7 @@ var MyResumeApp;
                     href: 'https://hangouts.google.com/call/yssqn7v6ebdz5fbey6d5xk4x5ye'
                 },
                 {
-                    text: 'Sint-Machariusstraat, 9000 Gent',
+                    text: 'Sint-Machariusstraat 24<br>9000 Gent',
                     icon: 'map',
                     href: 'https://goo.gl/maps/GQYCpxxuw5C2'
                 },
