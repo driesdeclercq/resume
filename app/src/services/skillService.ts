@@ -54,10 +54,6 @@ module MyResumeApp {
             level: "goede kennis"
           },
           {
-            name: "PHP",
-            level: "good"
-          },
-          {
             name: "AngularJS",
             level: "basis"
           }
