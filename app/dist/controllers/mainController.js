@@ -50,6 +50,8 @@ var MyResumeApp;
         MainController.prototype.selectMenuItem = function (menuItem) {
             this.selected = menuItem;
             this.menuItemService.selectedMenuItem = menuItem;
+            var top = document.getElementById('content-wrapper');
+            top.scrollTop = 0;
             var sidenav = this.$mdSideNav('left');
             if (sidenav.isOpen()) {
                 sidenav.close();
