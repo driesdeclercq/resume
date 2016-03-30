@@ -1,7 +1,7 @@
 /// <reference path="_all.ts" />
 var MyResumeApp;
 (function (MyResumeApp) {
-    angular.module('myResumeApp', ['ngMaterial', 'ngMdIcons', 'ngSanitize'])
+    angular.module('myResumeApp', ['ngMaterial', 'ngMdIcons', 'ngSanitize', 'konami'])
         .service('jobService', MyResumeApp.JobService)
         .service('skillService', MyResumeApp.SkillService)
         .service('educationService', MyResumeApp.EducationService)

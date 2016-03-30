@@ -79,5 +79,10 @@ module MyResumeApp {
         }
       }
 
+      doKonami() : void {
+        var myEl = angular.element(document.querySelector('body'));
+        myEl.removeClass('roll').addClass('roll');
+      }
+
   }
 }

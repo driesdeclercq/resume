@@ -57,6 +57,10 @@ var MyResumeApp;
                 sidenav.close();
             }
         };
+        MainController.prototype.doKonami = function () {
+            var myEl = angular.element(document.querySelector('body'));
+            myEl.removeClass('roll').addClass('roll');
+        };
         MainController.$inject = [
             'jobService',
             'skillService',

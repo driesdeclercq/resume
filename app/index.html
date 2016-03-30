@@ -28,7 +28,7 @@
     <div layout="column" flex>
       <ng-include src="'dist/view/toolbar_header.html'"></ng-include>
       <md-content flex class="md-padding" id="content-wrapper">
-        <div ng-view="" layout-padding="" flex="noshrink" class="layout-padding set-width ng-scope flex-noshrink">
+        <div konami-code="vm.doKonami()" ng-view="" layout-padding="" flex="noshrink" class="layout-padding set-width ng-scope flex-noshrink">
           <ng-include src="vm.selected.template"></ng-include>
         </div>
       </md-content>
@@ -40,6 +40,7 @@
     <script src="./bower_components/angular-material/angular-material.min.js"></script>
     <script src="./bower_components/angular-material-icons/angular-material-icons.min.js"></script>
     <script src="./bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="./bower_components/angular-konami/angular-konami.js"></script>
     
     <script src="./dist/models.js"></script>
     <script src="./dist/services/jobService.js"></script>
