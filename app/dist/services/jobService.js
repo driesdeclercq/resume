@@ -92,6 +92,23 @@ var MyResumeApp;
                     referenceTitle: '',
                     referencePhone: '',
                     referenceMail: 'jvandenbroucke@arrowup-online.com'
+                },
+                {
+                    title: 'Support Engineer',
+                    company: '@nker',
+                    location: 'Asse',
+                    start: '2002',
+                    end: '',
+                    description: [
+                        'Deze firma installeert en onderhoudt computergestuurde kassasystemen.',
+                        'Ik was technisch medewerker van het support team',
+                        'Voor 1 project (Kruidvat) verzorgde ik de opleiding van de techniekers en het stock beheer.'
+                    ],
+                    logo: '',
+                    referenceName: '',
+                    referenceTitle: '',
+                    referencePhone: '',
+                    referenceMail: ''
                 }
             ];
         }

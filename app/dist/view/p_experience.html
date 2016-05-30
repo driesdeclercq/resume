@@ -2,10 +2,12 @@
 	<md-card ng-repeat="job in vm.jobs">
         <md-card-title>
           <md-card-title-text>
-            <span class="md-headline">{{job.start}} - {{job.end}} {{job.title}}</span>
+            <span class="md-headline">{{job.start}} 
+              <span ng-show='job.end.length > 0'>- </span>
+              {{job.end}} {{job.title}}</span>
             <span class="md-subhead">{{job.company}}, {{job.location}}</span>
           </md-card-title-text>
-          <md-card-title-media>
+          <md-card-title-media ng-show='job.logo.length > 0'>
             <div class="md-media-sm card-media">
             	<img src="{{job.logo}}" alt="{{job.company}} logo"/>
             </div>
