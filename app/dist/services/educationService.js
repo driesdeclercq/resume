@@ -66,10 +66,6 @@ var MyResumeApp;
                             level: "Installatie en herstelling (2005)"
                         },
                         {
-                            name: "Support Engineer @nker",
-                            level: "Deze firma installeert en onderhoudt computergestuurde kassasystemen. Ik was technisch medewerker van het support team, voor 1 project (Kruidvat) verzorgde ik de opleiding van de techniekers en het stock beheer. (Asse, 2002)"
-                        },
-                        {
                             name: "IT support",
                             level: "Ervaring met assembleren en herstellen van PC’s / laptops, tablets, smartphones, IT support"
                         },
