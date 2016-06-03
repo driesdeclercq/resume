@@ -56,24 +56,20 @@ var MyResumeApp;
                             level: "Windows en OS X computers, netwerk configuratie, installatie software"
                         },
                         {
-                            name: "Stockbeheer",
-                            level: "opmaken van stockbeheer voor team van techniekers"
-                        },
-                        {
-                            name: "Android en iOS",
-                            level: "kennis van platform, installatie en configuratie van apps"
-                        },
-                        {
                             name: "Google Drive",
                             level: "door persoonlijk en professioneel gebruik"
+                        },
+                        {
+                            name: "Stockbeheer",
+                            level: "opmaken van stockbeheer voor team van techniekers"
                         },
                         {
                             name: "Organisatie en planning",
                             level: "tijdens ervaring bij Filmfest Gent en opstart academiejaar aan Artevelde Hogeschool bij IT support"
                         },
                         {
-                            name: "Opleiding",
-                            level: "van team techniekers in vorige werkervaring"
+                            name: "Opleiding geven",
+                            level: "aan team techniekers in vorige werkervaring"
                         },
                         {
                             name: "Documentatie",
