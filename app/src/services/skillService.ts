@@ -60,6 +60,40 @@ module MyResumeApp {
         ]
       },
       {
+        category: 'IT Support',
+        column: 'left',
+        entries: [
+          {
+            name: "Installatie en onderhoud",
+            level: "Windows en OS X computers, netwerk configuratie, installatie software"
+          },
+          {
+            name: "Stockbeheer",
+            level: "opmaken van stockbeheer voor team van techniekers"
+          },
+          {
+            name: "Android en iOS",
+            level: "kennis van platform, installatie en configuratie van apps"
+          },
+          {
+            name: "Google Drive",
+            level: "door persoonlijk en professioneel gebruik"
+          },
+          {
+            name: "Organisatie en planning",
+            level: "tijdens ervaring bij Filmfest Gent en opstart academiejaar aan Artevelde Hogeschool bij IT support"
+          },
+          {
+            name: "Opleiding",
+            level: "van team techniekers in vorige werkervaring"
+          },
+          {
+            name: "Documentatie",
+            level: "technische documentatie en handleiding schrijven en illustreren"
+          }
+        ]
+      },
+      {
         category: 'Grafische software',
         column: 'left',
         entries: [

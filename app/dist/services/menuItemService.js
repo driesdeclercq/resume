@@ -20,7 +20,7 @@ var MyResumeApp;
                     hue: 'md-hue-2'
                 },
                 {
-                    name: 'Kennis',
+                    name: 'Beroepstechnische vaardigheden',
                     icon: 'book',
                     template: 'dist/view/p_skills.html',
                     hue: 'md-hue-3'
