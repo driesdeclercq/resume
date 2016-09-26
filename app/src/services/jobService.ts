@@ -19,6 +19,21 @@ module MyResumeApp {
     
     private jobs: Job[] = [
       {
+        title: 'Drupal Front-end Developer',
+        company: 'XIO cvba',
+        location: 'Gent',
+        start: '2016',
+        end: '...',
+        description: [
+          'Drupal site building en theming'
+        ],
+        logo: './assets/logos/xio.png',
+        referenceName: 'Pascal Noppe',
+        referenceTitle: '',
+        referencePhone: '',
+        referenceMail: 'pascal@xio.be'
+      },
+      {
         title: 'Drupal Back-end Developer',
         company: 'Wunderkraut',
         location: 'Gent',
